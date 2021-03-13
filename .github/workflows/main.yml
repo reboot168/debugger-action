@@ -1,7 +1,7 @@
 name: Ubuntu
-on:
-   watch:
-     types: started
+on: [push]
+#   watch:
+#     types: started
 jobs:
   Ubuntu:
     runs-on: ubuntu-latest
